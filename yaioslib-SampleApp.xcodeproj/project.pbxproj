@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A7457AD17174327008D436F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7457AC17174327008D436F /* UIKit.framework */; };
+		8A7457AF17174327008D436F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7457AE17174327008D436F /* Foundation.framework */; };
+		8A7457B117174327008D436F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7457B017174327008D436F /* CoreGraphics.framework */; };
+		8A7457B717174327008D436F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A7457B517174327008D436F /* InfoPlist.strings */; };
+		8A7457B917174328008D436F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7457B817174328008D436F /* main.m */; };
+		8A7457BD17174328008D436F /* YAILAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7457BC17174328008D436F /* YAILAppDelegate.m */; };
+		8A7457BF17174328008D436F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A7457BE17174328008D436F /* Default.png */; };
+		8A7457C117174328008D436F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A7457C017174328008D436F /* Default@2x.png */; };
+		8A7457C317174328008D436F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A7457C217174328008D436F /* Default-568h@2x.png */; };
+		8A7457C617174328008D436F /* YAILViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7457C517174328008D436F /* YAILViewController.m */; };
+		8A7457C917174328008D436F /* YAILViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A7457C717174328008D436F /* YAILViewController.xib */; };
+		8A7457D617174771008D436F /* libyaioslib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7457D517174771008D436F /* libyaioslib.a */; };
+		8A7457D9171748B5008D436F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7457D8171748B5008D436F /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A7457A917174327008D436F /* yaioslib-SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yaioslib-SampleApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A7457AC17174327008D436F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8A7457AE17174327008D436F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8A7457B017174327008D436F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8A7457B417174327008D436F /* yaioslib-SampleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "yaioslib-SampleApp-Info.plist"; sourceTree = "<group>"; };
+		8A7457B617174327008D436F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A7457B817174328008D436F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A7457BA17174328008D436F /* yaioslib-SampleApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "yaioslib-SampleApp-Prefix.pch"; sourceTree = "<group>"; };
+		8A7457BB17174328008D436F /* YAILAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YAILAppDelegate.h; sourceTree = "<group>"; };
+		8A7457BC17174328008D436F /* YAILAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YAILAppDelegate.m; sourceTree = "<group>"; };
+		8A7457BE17174328008D436F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8A7457C017174328008D436F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8A7457C217174328008D436F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8A7457C417174328008D436F /* YAILViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YAILViewController.h; sourceTree = "<group>"; };
+		8A7457C517174328008D436F /* YAILViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YAILViewController.m; sourceTree = "<group>"; };
+		8A7457C817174328008D436F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YAILViewController.xib; sourceTree = "<group>"; };
+		8A7457D517174771008D436F /* libyaioslib.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libyaioslib.a; path = "build/Release-iphoneos/libyaioslib.a"; sourceTree = "<group>"; };
+		8A7457D8171748B5008D436F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A7457A617174327008D436F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A7457D617174771008D436F /* libyaioslib.a in Frameworks */,
+				8A7457AD17174327008D436F /* UIKit.framework in Frameworks */,
+				8A7457AF17174327008D436F /* Foundation.framework in Frameworks */,
+				8A7457B117174327008D436F /* CoreGraphics.framework in Frameworks */,
+				8A7457D9171748B5008D436F /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A7457A017174327008D436F = {
+			isa = PBXGroup;
+			children = (
+				8A7457D8171748B5008D436F /* QuartzCore.framework */,
+				8A7457D517174771008D436F /* libyaioslib.a */,
+				8A7457B217174327008D436F /* yaioslib-SampleApp */,
+				8A7457AB17174327008D436F /* Frameworks */,
+				8A7457AA17174327008D436F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A7457AA17174327008D436F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A7457A917174327008D436F /* yaioslib-SampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A7457AB17174327008D436F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A7457AC17174327008D436F /* UIKit.framework */,
+				8A7457AE17174327008D436F /* Foundation.framework */,
+				8A7457B017174327008D436F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A7457B217174327008D436F /* yaioslib-SampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				8A7457BB17174328008D436F /* YAILAppDelegate.h */,
+				8A7457BC17174328008D436F /* YAILAppDelegate.m */,
+				8A7457C417174328008D436F /* YAILViewController.h */,
+				8A7457C517174328008D436F /* YAILViewController.m */,
+				8A7457C717174328008D436F /* YAILViewController.xib */,
+				8A7457B317174327008D436F /* Supporting Files */,
+			);
+			path = "yaioslib-SampleApp";
+			sourceTree = "<group>";
+		};
+		8A7457B317174327008D436F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A7457B417174327008D436F /* yaioslib-SampleApp-Info.plist */,
+				8A7457B517174327008D436F /* InfoPlist.strings */,
+				8A7457B817174328008D436F /* main.m */,
+				8A7457BA17174328008D436F /* yaioslib-SampleApp-Prefix.pch */,
+				8A7457BE17174328008D436F /* Default.png */,
+				8A7457C017174328008D436F /* Default@2x.png */,
+				8A7457C217174328008D436F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A7457A817174327008D436F /* yaioslib-SampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A7457CC17174328008D436F /* Build configuration list for PBXNativeTarget "yaioslib-SampleApp" */;
+			buildPhases = (
+				8A7457A517174327008D436F /* Sources */,
+				8A7457A617174327008D436F /* Frameworks */,
+				8A7457A717174327008D436F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "yaioslib-SampleApp";
+			productName = "yaioslib-SampleApp";
+			productReference = 8A7457A917174327008D436F /* yaioslib-SampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A7457A117174327008D436F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YAIL;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Per Olesen";
+			};
+			buildConfigurationList = 8A7457A417174327008D436F /* Build configuration list for PBXProject "yaioslib-SampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A7457A017174327008D436F;
+			productRefGroup = 8A7457AA17174327008D436F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A7457A817174327008D436F /* yaioslib-SampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A7457A717174327008D436F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A7457B717174327008D436F /* InfoPlist.strings in Resources */,
+				8A7457BF17174328008D436F /* Default.png in Resources */,
+				8A7457C117174328008D436F /* Default@2x.png in Resources */,
+				8A7457C317174328008D436F /* Default-568h@2x.png in Resources */,
+				8A7457C917174328008D436F /* YAILViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A7457A517174327008D436F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A7457B917174328008D436F /* main.m in Sources */,
+				8A7457BD17174328008D436F /* YAILAppDelegate.m in Sources */,
+				8A7457C617174328008D436F /* YAILViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A7457B517174327008D436F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A7457B617174327008D436F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8A7457C717174328008D436F /* YAILViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A7457C817174328008D436F /* en */,
+			);
+			name = YAILViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A7457CA17174328008D436F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A7457CB17174328008D436F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A7457CD17174328008D436F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yaioslib-SampleApp/yaioslib-SampleApp-Prefix.pch";
+				INFOPLIST_FILE = "yaioslib-SampleApp/yaioslib-SampleApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8A7457CE17174328008D436F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yaioslib-SampleApp/yaioslib-SampleApp-Prefix.pch";
+				INFOPLIST_FILE = "yaioslib-SampleApp/yaioslib-SampleApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A7457A417174327008D436F /* Build configuration list for PBXProject "yaioslib-SampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A7457CA17174328008D436F /* Debug */,
+				8A7457CB17174328008D436F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A7457CC17174328008D436F /* Build configuration list for PBXNativeTarget "yaioslib-SampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A7457CD17174328008D436F /* Debug */,
+				8A7457CE17174328008D436F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A7457A117174327008D436F /* Project object */;
+}
