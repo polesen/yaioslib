@@ -8,12 +8,7 @@
 
 #import <QuartzCore/QuartzCore.h>
 
-@interface YAILGradientButton : UIButton {
-@private
-    UIColor *_highColor;
-    UIColor *_lowColor;
-    CAGradientLayer *_gradientLayer;
-}
+@interface YAILGradientButton : UIButton
 
 @property(nonatomic, retain) UIColor *highColor;
 @property(nonatomic, retain) UIColor *lowColor;

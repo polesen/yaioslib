@@ -13,7 +13,12 @@
 
 @end
 
-@implementation YAILGradientButton
+@implementation YAILGradientButton {
+@private
+    UIColor *_highColor;
+    UIColor *_lowColor;
+    CAGradientLayer *_gradientLayer;
+}
 
 @synthesize highColor = _highColor;
 @synthesize lowColor = _lowColor;
@@ -23,12 +28,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         _gradientLayer = [[CAGradientLayer alloc] init];
-
-        // Set layer bounds to be the same as its parent
-        [_gradientLayer setBounds:[self bounds]];
-
-        // Center the layer inside the parent layer
-        [_gradientLayer setPosition:CGPointMake([self bounds].size.width / 2, [self bounds].size.height / 2)];
+        [self updateGradientLayerSizeAndPosition];
 
         // Insert the layer at position zero to make sure the
         // text of the button is not obscured
@@ -38,8 +38,19 @@
         [[self layer] setBorderWidth:1.0f];
         [[self layer] setCornerRadius:8.0f];
         [[self layer] setMasksToBounds:YES];
+
+        // need redraw on bounds change instead of stretch
+        self.contentMode = UIViewContentModeRedraw;
     }
     return self;
+}
+
+- (void)updateGradientLayerSizeAndPosition {
+// Set layer bounds to be the same as its parent
+    [_gradientLayer setBounds:[self bounds]];
+
+    // Center the layer inside the parent layer
+    [_gradientLayer setPosition:CGPointMake([self bounds].size.width / 2, [self bounds].size.height / 2)];
 }
 
 - (BOOL)isOpaque {
@@ -51,6 +62,7 @@
         // Set the colors for the gradient to the two colors specified for high and low
         [_gradientLayer setColors:[NSArray arrayWithObjects:(id) [_highColor CGColor], (id) [_lowColor CGColor], nil]];
     }
+    [self updateGradientLayerSizeAndPosition];
     [super drawRect:rect];
 }
 
